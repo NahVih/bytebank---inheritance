@@ -17,7 +17,6 @@ public class testManager {
 		
 		System.out.println(Will.getSalary());
 		System.out.println(Will.getBonus());
-		System.out.println(Will.getName());
 		
 	}
 }
