@@ -1,5 +1,5 @@
 
-public class employe {
+public abstract class employe {
 	
 	private String name;
 	private String tfn;
@@ -10,9 +10,7 @@ public class employe {
 		
 	}
 	
-	public double getBonus() {
-		return this.salary * 0.1;
-	}
+	public abstract double getBonus();
 	
 	public String getName() {
 		return name;

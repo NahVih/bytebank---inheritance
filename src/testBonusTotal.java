@@ -10,7 +10,7 @@ public class testBonusTotal {
 		System.out.println(Will.getSalary());
 		System.out.println(Will.getBonus());
 		
-		employe Piter = new employe();
+		adm Piter = new adm();
 		Piter.setName("Piter Smith");
 		Piter.setTfn("22282227823");
 		Piter.setSalary(1500.0);

@@ -1,7 +1,7 @@
 
 public class testEmploye {
 	public static void main(String[] args) {
-		employe Piter = new employe();
+		adm Piter = new adm();
 		Piter.setName("Piter Parker");
 		Piter.setTfn("15789657823");
 		Piter.setSalary(4500.0);
@@ -10,7 +10,7 @@ public class testEmploye {
 		System.out.println(Piter.getSalary());
 		System.out.println(Piter.getBonus());
 		
-		employe Will = new employe();
+		adm Will = new adm();
 		Will.setName("Will Smith");
 		Will.setTfn("15782227823");
 		Will.setSalary(9500.0);
@@ -22,7 +22,7 @@ public class testEmploye {
 		System.out.println(Will.getSalary());
 
 		
-		employe Thiago = new employe();
+		adm Thiago = new adm();
 		Thiago.setName("Thiago Spider");
 		Thiago.setTfn("15784337823");
 		Thiago.setSalary(15500.0);
