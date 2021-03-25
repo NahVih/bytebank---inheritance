@@ -2,7 +2,7 @@
 public class BonusTotal {
 	private double total;
 	
-	public void register(employe f) {
+	public void register(Employee f) {
 		this.total += f.getBonus();
 	}
 	

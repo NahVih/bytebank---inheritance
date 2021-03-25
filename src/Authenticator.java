@@ -1,9 +1,10 @@
-
-public class adm extends employe {
+//Composition
+public class Authenticator {
 	
 	private int password;
+
 	
-	public boolean autentication(int password) {
+	public boolean getAutentication(int password) {
 		if(this.password == password) {
 			return true;
 		}
@@ -12,16 +13,11 @@ public class adm extends employe {
 		}
 	}
 
-	public int getPassword() {
+	public int getPassword(int password) {
 		return password;
 	}
 
 	public void setPassword(int password) {
 		this.password = password;
 	}
-	
-	public double getBonus() {
-		return getSalary() * 0.1;		
-	}
-
 }

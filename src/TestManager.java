@@ -1,7 +1,7 @@
 
-public class testManager {
+public class TestManager {
 	public static void main(String[] args) {
-		manager Will = new manager();
+		Manager Will = new Manager();
 		Will.setName("Will Smith");
 		Will.setTfn("15782227823");
 		Will.setSalary(9500.0);

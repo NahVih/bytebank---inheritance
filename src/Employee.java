@@ -1,12 +1,12 @@
 
-public abstract class employe {
+public abstract class Employee {
 	
 	private String name;
 	private String tfn;
 	private double salary;
 	private int type = 0; // regular 0, manager 1, director 2
 	
-	public employe() {
+	public Employee() {
 		
 	}
 	

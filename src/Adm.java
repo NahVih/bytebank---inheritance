@@ -1,5 +1,5 @@
 
-public class manager extends employe {
+public class Adm extends Employee {
 	
 	private int password;
 	
@@ -21,7 +21,7 @@ public class manager extends employe {
 	}
 	
 	public double getBonus() {
-		return super.getSalary() * 2;		
+		return getSalary() * 0.1;		
 	}
 
 }
