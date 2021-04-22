@@ -1,3 +1,4 @@
+package au.com.bytebank.bank.main;
 //Composition
 public class Authenticator {
 	

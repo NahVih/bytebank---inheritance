@@ -1,10 +1,13 @@
+package au.com.bytebank.bank.main;
 
-public abstract class Employee {
+import java.io.Serializable;
+
+public abstract class Employee implements Serializable{
 	
 	private String name;
 	private String tfn;
+	private String job;
 	private double salary;
-	private int type = 0; // regular 0, manager 1, director 2
 	
 	public Employee() {
 		
@@ -30,11 +33,13 @@ public abstract class Employee {
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	public int getType() {
-		return type;
+
+	public String getJob() {
+		return job;
 	}
-	public void setType(int type) {
-		this.type = type;
+
+	public void setJob(String job) {
+		this.job = job;
 	}
 
 }

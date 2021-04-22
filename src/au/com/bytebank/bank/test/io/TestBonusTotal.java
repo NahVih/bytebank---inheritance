@@ -1,3 +1,7 @@
+package au.com.bytebank.bank.test.io;
+import au.com.bytebank.bank.main.Adm;
+import au.com.bytebank.bank.main.BonusTotal;
+import au.com.bytebank.bank.main.Manager;
 
 public class TestBonusTotal {
 	public static void main(String[] args) {

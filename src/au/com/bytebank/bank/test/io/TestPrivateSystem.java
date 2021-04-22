@@ -1,3 +1,7 @@
+package au.com.bytebank.bank.test.io;
+import au.com.bytebank.bank.main.Director;
+import au.com.bytebank.bank.main.Manager;
+import au.com.bytebank.bank.main.PrivateSystem;
 
 public class TestPrivateSystem {
 

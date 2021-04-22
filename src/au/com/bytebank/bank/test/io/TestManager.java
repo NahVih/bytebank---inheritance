@@ -1,3 +1,5 @@
+package au.com.bytebank.bank.test.io;
+import au.com.bytebank.bank.main.Manager;
 
 public class TestManager {
 	public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package au.com.bytebank.bank.test.io;
+import au.com.bytebank.bank.main.Adm;
 
 public class TestEmploye {
 	public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class TestEmploye {
 		Will.setName("Will Smith");
 		Will.setTfn("15782227823");
 		Will.setSalary(9500.0);
-		Will.setType(1);
+
 		
 		System.out.println(Will.getName());
 		System.out.println(Will.getSalary());
@@ -26,7 +28,7 @@ public class TestEmploye {
 		Thiago.setName("Thiago Spider");
 		Thiago.setTfn("15784337823");
 		Thiago.setSalary(15500.0);
-		Thiago.setType(2);
+
 		
 		System.out.println(Thiago.getName());
 		System.out.println(Thiago.getSalary());
